@@ -1,5 +1,32 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6fb;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    color: #333;
+}
+
+/* Контейнер */
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    width: 100%;
+    background-color: #fff;
+    padding: 25px;
+    margin: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    align-items: stretch;
+}
+
 /* Заголовок */
-.container_ h1 {
+.container h1 {
     text-align: center;
     margin-bottom: 25px;
 }
@@ -49,23 +76,23 @@
     transition: background 0.3s;
 }
 
-.container_test>.back-button:hover {
+.back-button:hover {
     background-color: #45a049;
 }
 
-/* Адаптивность для мобильных устройств */
+/* Адаптивность */
 @media (max-width: 600px) {
     .container {
         padding: 15px;
         margin: 10px;
     }
 
-    .question h3 {
+    .error-item h3 {
         font-size: 16px;
     }
 
-    button {
+    .back-button {
         font-size: 16px;
-        padding: 14px;
+        padding: 12px 20px;
     }
 }
