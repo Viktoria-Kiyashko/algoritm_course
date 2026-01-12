@@ -1,3 +1,18 @@
+<style>
+    /* Заголовок */
+
+    .container {
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    width: 100%;
+    background-color: #fff;
+    padding: 25px;
+    margin: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    align-items: stretch;
+}
 .container h1 {
     text-align: center;
     margin-bottom: 25px;
@@ -68,3 +83,5 @@
         padding: 14px;
     }
 }
+
+</style>
